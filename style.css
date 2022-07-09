@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: pink;
+    background-color: black;
 }
 
 .atb-paket {
@@ -15,7 +15,7 @@ body {
 }
 
 .menu {
-    background-color: black;
+    background-color: pink;
     text-align: center;
     list-style: none;
     margin: 0%;
@@ -34,16 +34,17 @@ body {
 .menu-item{
     display: block;
     text-decoration: none;
-    color: white;
+    color: black;
+    
     
 
 }
 .menu-item:hover{
-    color: pink;
-    background-color: azure;
+    color: white;
+    background-color: pink;
 }
 .main-section {
-    background-color: 
+    background-color: gainsboro;
     width: fit-content;
     padding:60px;
     margin: 30px;
@@ -51,4 +52,10 @@ body {
     border-bottom-right-radius: 60px;
     box-shadow: 7px 5px 20px 0px;
 }
-
+.main-section{
+    background-color: pink;
+    width: fit-content;
+}
+.main-section h2{
+    color: aliceblue;
+}
